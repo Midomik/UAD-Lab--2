@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div class="main_container">
+      <h1 class="game_title">
+        Does the color name on the left match the text on the right?
+      </h1>
+      <div class="timer_container"><p class="timer">60</p></div>
+      <div class="result_container">
+        <p class="true_result"></p>
+        <p class="false_result"></p>
+      </div>
+      <button class="start_btn">Play</button>
+      <div class="color_container">
+        <div class="left_color_title"></div>
+        <div class="right_color"></div>
+      </div>
+
+      <div class="control_container">
+        <button class="btn_yes">Yes</button>
+        <button class="btn_no">No</button>
+      </div>
+    </div>
   </body>
+  <script src="./script.js"></script>
 </html>
