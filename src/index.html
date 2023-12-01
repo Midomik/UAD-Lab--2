@@ -4,17 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+
     <title>Document</title>
   </head>
   <body>
     <div class="main_container">
+      <div class="main-container-toggle">
+        <div class="toggle-button">
+          <div class="inner-circle"></div>
+        </div>
+        <p class="togle_title">Dark/White</p>
+      </div>
+
       <h1 class="game_title">
         Does the color name on the left match the text on the right?
       </h1>
-      <div class="timer_container"><p class="timer">60</p></div>
+      <div class="timer_container"><p class="timer"></p></div>
+
       <div class="result_container">
         <p class="true_result"></p>
         <p class="false_result"></p>
+      </div>
+
+      <div class="game_time_container">
+        <div class="progress_container">
+          <progress class="progress_bar" value="0" max="0"></progress>
+        </div>
+        <div class="select_mode_container">
+          Select Game Mode:
+          <select class="select_mode">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+        <div>
+          <p style="margin: 0; margin-bottom: 5px">Game Time:</p>
+
+          <div>
+            <input type="radio" id="first" name="drone" value="huey" checked />
+            <label for="huey">30 sec</label>
+          </div>
+
+          <div>
+            <input type="radio" id="second" name="drone" value="dewey" />
+            <label for="dewey">60 sec</label>
+          </div>
+        </div>
+      </div>
+      <div class="test_for_daltonism_container">
+        <input class="test_for_daltonism" type="checkbox" />Confirm that you are
+        not color blind or simply blind
       </div>
       <button class="start_btn">Play</button>
       <div class="color_container">

@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Midomik.github.io/UAD-Lab--2",
+  "homepage": "https://Midomik.github.io/UAD-Lab--3",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /UAD-Lab--2/"
+    "build": "parcel build src/*.html --public-url /UAD-Lab--3/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Midomik/UAD-Lab--2.git"
+    "url": "git+https://github.com/Midomik/UAD-Lab--3.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Midomik/UAD-Lab--2/issues"
+    "url": "https://github.com/Midomik/UAD-Lab--3/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
